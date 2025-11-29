@@ -1,0 +1,14 @@
+Analytics done on this project includes but not limited to:
+- data cleaning
+- data mapping
+- EDA
+- model building
+- feature importance
+
+Tools used included pandas,seaborn,matplotlib,numpy and scikit-learn
+
+Three classification algorithms were trained and evaluated,i.e, Logistic Regression,Decision Tree And Random Forest.They were all trained on stratified train-test split,class balanced training and evaluated with accuracy and f1 score
+
+Random Forest model was the best due to it's accuracy,robusness and ability to capture complex HR datasets and was therefore selected as the final predictive model.
+
+No dimensionality reduction(e.g PCA) was done since the data was structured
